@@ -1,0 +1,8 @@
+| Caso | Dados de entrada    | Esperado                  | Obtido                    | Status      |
+| ---- | ------------------- | ------------------------- | ------------------------- | ----------- |
+| 1    | Nome vazio; 8, 7, 9 | Preencha todos os campos. | Preencha todos os campos. | Inválido    |
+| 2    | Nota inválida       | Use notas entre 0 e 10.   | Use notas entre 0 e 10.   | Inválido    |
+| 3    | 1, 7, 9             | Reprovado                 | Média 5.7; Recuperação    | Recuperação |
+| 4    | 5, 5, 5             | Recuperação               | Média 5.0; Recuperação    | Recuperação |
+| 5    | 8, 8, 9             | Aprovado                  | Média 8.3; Aprovado       | Aprovado    |
+| 6    | 2, 3, 4             | Reprovado                 | Média 3.0; Reprovado      | Reprovado   |
